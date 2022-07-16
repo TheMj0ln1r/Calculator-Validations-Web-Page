@@ -1,0 +1,59 @@
+body{
+	background-color: darkcyan;
+}
+h1{
+	color: cyan;
+	text-align: center;
+	font-family:'Lucida Console',monospace;
+}
+.super{
+	height: 500px;
+	width: 25%;
+	margin: 0px 0px 100px 465px;
+	background-color: cyan;
+	border: 5px solid red ;
+	position: absolute;
+}
+.parent{
+	background-color: cyan;
+	/*border: 1px solid blue ;*/
+	margin: 25px 20px 20px 20px;
+	position: relative;
+	height: 450px;
+}
+#disp{
+	height: 80px;
+	width: 90%;
+	margin: 3px;
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+.same{
+	width: 20px;  
+	background-color: darkcyan;  
+	color: white;  
+	border: 3px solid gray;  
+    border-radius: 5px;  
+    padding: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+    margin: 10px;
+    font-size: 15px; 
+    cursor: pointer;
+}
+#clr{
+	width: 100px;  
+	background-color: red;  
+	color: white;  
+	border: 3px solid gray;  
+    border-radius: 5px;  
+    padding: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    margin: 10px;
+    font-size: 15px; 
+    cursor: pointer;
+}
